@@ -4,9 +4,13 @@ body {
   background-color: #fff;
 }
 
+/* reset */
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -15,6 +19,25 @@ a {
 
 button {
   cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* common */
+/* container 1128px + 2 paddings (15px+15px) */
+
+.container {
+  min-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Logo header & footer */
@@ -46,6 +69,30 @@ button {
 }
 
 /* Header */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
 
 .nav-link {
   font-weight: 500;
@@ -113,6 +160,19 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* h3 for all sections */
