@@ -58,6 +58,7 @@ p {
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -108,7 +109,7 @@ p {
 }
 
 .contacts {
-  padding-left:;
+  font-style: normal;
   margin-left: auto;
 }
 
@@ -132,20 +133,31 @@ p {
 
 .hero-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 /* button */
 
 .hero-button {
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  margin: 0 auto;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -170,6 +182,10 @@ p {
   color: #2e2f42;
 }
 
+.features-section {
+  padding: 120px 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -181,6 +197,10 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.features-subtitle {
+  margin-bottom: 8px;
 }
 
 /* h3 for all sections */
@@ -206,6 +226,11 @@ p {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-title {
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -217,13 +242,27 @@ p {
   text-align: center;
 }
 
+.team-name {
+  margin-bottom: 8px;
+}
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
 /* Footer */
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
