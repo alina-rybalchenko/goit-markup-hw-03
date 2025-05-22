@@ -282,12 +282,14 @@ p {
 
 .portfolio-item {
   background-color: #fff;
-  border: 1px solid #e7e9fc;
   width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-content {
-  padding: 32px;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .portfolio-subtitle {
   margin-bottom: 8px;
